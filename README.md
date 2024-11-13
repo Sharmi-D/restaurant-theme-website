@@ -2,6 +2,8 @@
 This is a Restaurant Theme Website, designed using html and css.
 It was created when I was taking a web developmnt course in college.
 
+## Live Demo: https://sharmi-d.github.io/restaurant-theme-website/
+
 ## Motivation
 The purpose of this project is developed for academic project. 
 
