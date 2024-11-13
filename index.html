@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant Theme Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar section starts here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.jpg" alt="Logo error" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="foods.html">Foods</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- navbar section ends here -->
+
+    <!-- food search section starts here -->
+    <section class="food-search">
+        <div class="container">
+            
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-place-order">
+            </form>
+
+        </div>
+    </section>
+    <!-- food search section ends here -->
+
+    <!-- categories section starts here -->
+    <section class="categories">
+        <div class="container">
+            <h2>Explore Foods</h2>
+
+            <a href="category-foods.html">
+            <div class="box-3">
+                <img src="images/french fries.jpg" alt="error" class="img-responsive img-curve">
+                <a href="category-foods.html" class="box-text">Fries</a>
+            </div>
+            </a>
+
+            <a href="category-foods.html">
+            <div class="box-3">
+                <img src="images/hariyali chicken gravy.jpg" alt="error" class="img-responsive img-curve">
+                <a href="category-foods.html" class="box-text">Gravy</a>
+            </div>
+            </a>
+
+            <a href="category-foods.html">
+            <div class="box-3">
+                <img src="images/pizza.jpg" alt="error" class="img-responsive img-curve">
+                <a href="category-foods.html" class="box-text">Pizza</a>
+            </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- categories section ends here -->
+
+    <!-- food menu section starts here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box" id="02">
+                <div class="food-menu-img">
+                    <img src="images/menu-burger.jpg" alt="error" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Smoky Burger</h4>
+                    <p class="food-price">&#8377; 150</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+                    <a href="order.html" class="btn btn-place-order">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" alt="error" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Thin Crust Pizza</h4>
+                    <p class="food-price">&#8377; 350</p>
+                    <p class="food-detail">
+                        Made with Marinara Sauce, Mozzarella Cheese, and Fresh vegetables.
+                    </p>
+                    <br>
+                    <a href="order.html" class="btn btn-place-order">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/french fries.jpg" alt="error" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>French Fries</h4>
+                    <p class="food-price">&#8377; 64</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+                    <a href="order.html" class="btn btn-place-order">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/hariyali chicken gravy.jpg" alt="error" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Hariyali Chicken Gravy</h4>
+                    <p class="food-price">&#8377; 230</p>
+                    <p class="food-detail">
+                        Made with Chicken, Coriander, Mint and Fresh Aromatic Herbs.
+                    </p>
+                    <br>
+                    <a href="order.html" class="btn btn-place-order">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/garlic naan.jpg" alt="error" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Garlic Naan</h4>
+                    <p class="food-price">&#8377; 23</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+                    <a href="order.html" class="btn btn-place-order">Order Now</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-momo.jpg" alt="error" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Chicken Steam Momo</h4>
+                    <p class="food-price"> &#8377 105</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, Chicken, and organice vegetables.
+                    </p>
+                    <br>
+                    <a href="order.html" class="btn btn-place-order">Order Now</a>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+        <p class="text-center">
+            <a href="foods.html">See All Foods</a>
+        </p>
+
+    </section>
+    <!-- food menu section ends here -->
+
+    <!-- social section starts here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li><a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a></li>
+                <li><a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a></li>
+                <li><a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- social section ends here -->
+
+    <!-- footer section starts here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>&#169; All rights reserved.</p>
+        </div>
+    </section>
+    <!-- footer section ends here -->
+
+</body>
+</html>

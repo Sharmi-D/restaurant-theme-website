@@ -1,0 +1,358 @@
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    /* border: 1px solid red; */
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #735a47;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #8e3229;
+}
+
+.btn{
+    padding: 10px 12px;
+    margin: 0 3%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-place-order,
+.btn-primary{
+    background-color: #8e3229;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-place-order:hover,
+.btn-primary:hover{
+    color: white;
+    background-color: #468f5e;
+}
+
+input{
+    padding: 1%;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+h1{
+    font-size: 2rem;
+    color: white;
+}
+
+
+h2{
+    color: #735a47;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+h3{
+    color: #8e3229;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+.text-white{
+    color: white;
+}
+
+
+
+/* -------------navbar section----------- */
+
+.logo{
+    width: 15%;
+    float: left;
+}
+
+.menu{
+    text-align: right;
+    line-height: 60px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* ------------search section------------- */
+
+.food-search{
+    text-align: center;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+}
+
+
+/*  --------------categories-------------- */
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    position: relative;
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+.box-3 img{
+    height: 400px;
+}
+
+.box-text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+/* ------------food menu----------- */
+
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.food-menu-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* -------------social------------ */
+
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+/* -----------Order Section----------- */
+
+.order{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input-responsive{
+    width: 90%;
+    padding: 2% 1%;
+    margin: 0% 3% 4%;
+    background: #ececec;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+fieldset{
+    margin: 4% 0;
+    padding: 2%;
+}
+
+legend{
+    font-size: 1.2rem;
+}
+
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+/* --------contact section--------- */
+
+.contact{
+    padding: 4% 0;
+}
+
+.input-field{
+    margin: 2% 3% ;
+    width: 40%;
+    height: 2rem;
+    padding: 1%;
+    font-size: 1rem;
+    background:#ececec;
+}
+
+.contact input:last-child{
+    border: none;
+    margin: 0 3%;
+}
+
+.field-bg{
+    background: #ececec;
+}
+
+/* .textarea{
+    width: 90%;
+} */
+
+
+
+/* -------------media queries---------- */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+    
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+
+    .order{
+        width: 100%;
+    }
+
+    .input-field{
+        width: 90%;
+        margin: 4% 3%;
+    }
+    /* .contact input[type="text"],
+    .contact input[type="email"],
+    .textarea{
+        width: 90%;
+        margin: 4% 3%;
+    }
+
+    .contact input:last-child{
+        margin: 5% 3%;
+    } */
+
+}
